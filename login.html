@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+</head>
+<body>
+	<h1>Sign In </h1>
+	<form action="" method="post" name="login">
+		{{form.hidden_tag()}}
+		<p>
+			Enter Your Username: <br>
+			{{form.username(size=80)}}
+
+		</p>
+		<p>
+			{{form.remember}}Remember Me
+		</p>
+		<p>
+			<input type="submit" name="" value="Sign In">
+		</p>
+	</form>
+</body>
+</html>
